@@ -4,12 +4,12 @@
       "strict": true,
       "paths": {
          "@/*": ["./*"],
-         "@components/*": ["./src/components/*"],
-         "@screens/*": ["./src/screens/*"],
-         "@navigation/*": ["./src/navigation/*"],
-         "@types/*": ["./src/types/*"],
-         "@constants/*": ["./src/constants/*"],
-         "@utils/*": ["./src/utils/*"]
+         "@components/*": ["./components/*"],
+         "@screens/*": ["./screens/*"],
+         "@navigation/*": ["./navigation/*"],
+         "@types/*": ["./types/*"],
+         "@constants/*": ["./constants/*"],
+         "@utils/*": ["./utils/*"]
       }
    },
    "include": [
