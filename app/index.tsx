@@ -1,6 +1,7 @@
+import { images } from '@/constants/images';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useRef } from 'react';
-import { Animated, Text, View } from 'react-native';
+import { Animated, Image, Text, View } from 'react-native';
 
 export default function SplashScreen() {
    const router = useRouter();
@@ -34,8 +35,15 @@ export default function SplashScreen() {
          className="flex-1 items-center justify-center bg-primary"
          style={{ opacity: fadeAnim, transform: [{ scale: scaleAnim }] }}
       >
-         <View className="rounded-3xl bg-white/10 p-8">
-            <Text className="text-7xl font-bold text-white">DG Slides</Text>
+         <View className="flex items-center justify-center rounded-full bg-white/80 p-8">
+            <Image
+               source={images.logo}
+               className="h-28 w-32"
+               resizeMode="contain"
+            />
+            <Text className="-mt-2 text-xl font-medium text-primary-dark ">
+               slides
+            </Text>
          </View>
          <Text className="mt-6 text-lg font-medium text-white">
             Create. Edit. Present. Beautifully.
