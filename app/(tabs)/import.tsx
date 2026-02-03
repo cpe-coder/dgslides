@@ -20,7 +20,7 @@ export default function ImportExportScreen() {
    ];
 
    return (
-      <SafeAreaView className="flex-1 bg-gray-900">
+      <SafeAreaView className="flex-1 bg-gray-900 pt-8">
          <ScrollView className="flex-1">
             <View className="p-5">
                <Text className="mb-6 text-2xl font-bold text-white">

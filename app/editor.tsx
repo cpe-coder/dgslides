@@ -38,7 +38,7 @@ export default function EditorScreen() {
    ];
 
    return (
-      <SafeAreaView className="flex-1 bg-gray-900">
+      <SafeAreaView className="flex-1 bg-gray-900 pt-8">
          {/* Top Bar */}
          <View className="flex-row items-center justify-between bg-gray-800/95 px-5 py-4">
             <View className="flex-1 flex-row items-center">

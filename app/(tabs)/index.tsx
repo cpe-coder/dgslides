@@ -53,7 +53,7 @@ export default function HomeScreen() {
    ];
 
    return (
-      <SafeAreaView className="flex-1 bg-gray-900">
+      <SafeAreaView className="flex-1 bg-gray-900 pt-8">
          <ScrollView className="flex-1" showsVerticalScrollIndicator={false}>
             {/* Header */}
             <View className="px-5 pb-6 pt-4">

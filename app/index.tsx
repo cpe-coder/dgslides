@@ -35,7 +35,7 @@ export default function SplashScreen() {
          style={{ opacity: fadeAnim, transform: [{ scale: scaleAnim }] }}
       >
          <View className="rounded-3xl bg-white/10 p-8">
-            <Text className="text-7xl font-bold text-white">DG</Text>
+            <Text className="text-7xl font-bold text-white">DG Slides</Text>
          </View>
          <Text className="mt-6 text-lg font-medium text-white">
             Create. Edit. Present. Beautifully.
